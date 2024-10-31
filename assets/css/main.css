@@ -1,0 +1,276 @@
+/* ========= INFORMATION ============================
+	- document:  LeadGeneration!
+	- author:    Dmytro Lobov 
+	- version:   1.0
+	- url:       https://wordpress.org/plugins/leadgeneration/
+
+==================================================== */
+
+html.no-scroll,
+body.no-scroll {
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 780px){
+	html.no-scroll, body.no-scroll { 
+		width: 100%;
+		height: 100%;
+		position: absolute;		
+	}
+}
+
+.lg-popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	display: block;
+	overflow:auto;	
+}
+
+.lg-popup-overlay-close {
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0;
+	cursor: default;		
+	width: 100%; 
+	height: 100%;
+}
+
+.lg-popup{
+	display: block;	
+}
+
+
+.lg-popup-overlay,
+.lg-popup,
+.lg-popup-close-btn {
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.is-active.lg-popup-overlay,
+.is-active.lg-popup,
+.is-active.lg-popup-close-btn {
+	visibility: visible;
+	opacity: 1;
+	pointer-events: auto;
+}
+.lg-popup-content {
+	position: relative;
+	
+}
+
+
+/* ========================
+	Modal window positions
+======================== */
+
+.lg-popup.center {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.lg-popup.topLeft {
+	top: 0;
+	left: 0;
+}
+.lg-popup.topCenter {
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.lg-popup.topRight {
+	top: 0;
+	right: 0;
+}
+.lg-popup.bottomLeft {
+	bottom: 0;
+	left: 0;
+}
+.lg-popup.bottomCenter {
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.lg-popup.bottomRight {
+	bottom: 0;
+	right: 0;
+}
+.lg-popup.right {
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.lg-popup.left {
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+/* ========================
+	Positions
+======================== */
+
+.lg-center {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.lg-topLeft {
+	top: 0;
+	left: 0;
+}
+.lg-topCenter {
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.lg-topRight {
+	top: 0;
+	right: 0;
+}
+.lg-bottomLeft {
+	bottom: 0;
+	left: 0;
+}
+.lg-bottomCenter {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.lg-bottomRight {
+	bottom: 0;
+	right: 0;	
+}
+.lg-right {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.lg-left {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+/* ========================
+	Close buttons
+======================== */
+
+.lg-popup-close-btn.topLeft {
+	top: 0;
+	left: 0;
+}
+
+.lg-popup-close-btn.topRight {
+	top: 0;
+	right: 0;
+}
+
+.lg-popup-close-btn.bottomLeft {
+	bottom: 0;
+	left: 0;
+}
+
+.lg-popup-close-btn.bottomRight {
+	bottom: 0;
+	right: 0;
+}
+
+.lg-popup-close-btn {
+	cursor: pointer;
+	position: absolute;		
+}
+
+.lg-popup-close-btn,
+.lg-popup-close-btn:before {
+	transition: all 0.1s ease;
+}
+.lg-popup-close-btn:before {
+	white-space: nowrap;
+	display: block;
+	position: relative;
+	transition: all 0.1s ease;
+}
+
+/* ========================
+	Columns
+======================== */
+
+.lg-col, .lg-form {	
+	display: flex;
+	flex-wrap: wrap;
+}  
+.lg-col-1, .lg-col-2, .lg-col-3, .lg-col-4, .lg-col-5, .lg-col-6, .lg-col-7, .lg-col-8, .lg-col-9, .lg-col-10, .lg-col-11, .lg-col-12 {	
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+.lg-col-12 {
+	width: 100%;
+}
+.lg-col-11 {
+	width: 91.66666667%;
+}
+.lg-col-10 {
+	width: 83.33333333%;
+}
+.lg-col-9 {
+	width: 75%;
+}
+.lg-col-8 {
+	width: 66.66666667%;
+}
+.lg-col-7 {
+	width: 58.33333333%;
+}
+.lg-col-6 {
+	width: 50%;
+}
+.lg-col-5 {
+	width: 41.66666667%;
+}
+.lg-col-4 {
+	width: 33.33333333%;
+}
+.lg-col-3 {
+	width: 25%;
+}
+.lg-col-2 {
+	width: 16.66666667%;
+}
+.lg-col-1 {
+	width: 8.33333333%;
+}
+
+/* ========================
+	Rotate
+======================== */
+.lg-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); 
+}
+
+.lg-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); 
+}
+
+.lg-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg); 
+}

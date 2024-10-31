@@ -1,0 +1,19 @@
+
+.lg-button-preview {
+	background-color: #fff;  
+  min-height: 200px;  
+	border-bottom: 1px solid #eee;	
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;	
+	position: relative;	
+}
+
+.lg-button-preview h3 {
+	padding: 15px;
+	border-bottom: 1px solid #eee;
+}
+
+#button-preview {
+	margin: 10px auto;
+}
+

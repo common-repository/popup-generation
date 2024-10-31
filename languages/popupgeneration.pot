@@ -1,0 +1,909 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Popup Generation\n"
+"POT-Creation-Date: 2018-10-23 16:41+0300\n"
+"PO-Revision-Date: 2018-10-23 16:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: popup-generation.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-admin.php:238
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%1$s\" target=\"_blank\">Popup Generation</a>! "
+"Please <a href=\"%2$s\" target=\"_blank\">rate us on WordPress.org</a>"
+msgstr ""
+
+#: admin/general/main.php:39
+msgid "Welcome to Lead Generation"
+msgstr ""
+
+#: admin/general/main.php:42
+msgid ""
+"Congratulations! You are about to use a complete set of the most feature-"
+"rich tools for the marketing."
+msgstr ""
+
+#: admin/general/main.php:51
+msgid "About"
+msgstr ""
+
+#: admin/general/main.php:52 admin/popups/main.php:22
+msgid "Support"
+msgstr ""
+
+#: admin/popups/add-new/close.php:20
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">More advanced closen</a>"
+msgstr ""
+
+#: admin/popups/add-new/close.php:25
+msgid "Click Overlay to Close"
+msgstr ""
+
+#: admin/popups/add-new/close.php:28
+msgid "Press ESC to Close"
+msgstr ""
+
+#: admin/popups/add-new/close.php:35 admin/popups/add-new/popup.php:33
+msgid "Notice!"
+msgstr ""
+
+#: admin/popups/add-new/close.php:38
+msgid "You can close popup via click to the element with:"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:17
+msgid "Triggers"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:27
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">More advanced triggers</a>"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:36
+msgid "You can open popup via adding to the element:"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:47
+msgid "Animate In"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:51
+msgid "Animate Out"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:55
+msgid "Animation Speed (sec)"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:63
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">More advanced animations</a>"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:72
+msgid "Set the cookie time"
+msgstr ""
+
+#: admin/popups/add-new/popup.php:85
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">YouTube video Support</a>"
+msgstr ""
+
+#: admin/popups/add-new/settings/close.php:23
+msgid "Specify if overlay can close the modal or not."
+msgstr ""
+
+#: admin/popups/add-new/settings/close.php:36
+msgid "Enabled the ESC key to close the popup."
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:38
+msgid "All posts and pages"
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:39
+msgid "All posts"
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:40
+msgid "All pages"
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:41
+msgid "Posts with certain IDs"
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:42
+msgid "Pages with certain IDs"
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:43
+msgid "Posts in Categorys with IDs"
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:44
+msgid "All posts. except..."
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:45
+msgid "All pages, except..."
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:46
+msgid "Where shortcode is inserted"
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:49
+msgid "Taxonomy"
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:63
+msgid "Choose a condition to target to specific content."
+msgstr ""
+
+#: admin/popups/add-new/settings/main.php:90
+msgid "Enter IDs, separated by comma."
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:20
+msgid "Click"
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:21
+msgid "Auto"
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:29
+msgid "Triggers cause a popup to open:"
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:31
+msgid ""
+"<strong>Click</strong> - if you wish to activate the popup manually on "
+"element click;"
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:32
+msgid "<strong>Auto</strong> - popup will activate when the page loads;"
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:45
+msgid "fadeIn"
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:51
+msgid "Specify modal window transition open effect."
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:61
+msgid "fadeOut"
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:67
+msgid "Specify modal window transition close effect."
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:86
+msgid "Specify popup animation effect speed in seconds."
+msgstr ""
+
+#: admin/popups/add-new/settings/popup.php:100
+msgid ""
+"Defines if the popup will set a cookie and hide it self for a period of time "
+"from the user.  Set the cookie in days."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:23
+msgid ""
+"Specify if overlay should be active or not. If you uncheck, the modal will "
+"have no background overlay."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:50
+msgid ""
+"The z-index property specifies the stack order of an element. An element "
+"with greater stack order is always in front of an element with a lower stack "
+"order."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:60
+msgid "Center location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:61
+msgid "Top Left location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:62
+msgid "Top Center location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:63
+msgid "Top Right location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:64
+msgid "Bottom Left location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:65
+msgid "Bottom Center location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:66
+msgid "Bottom Right location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:67
+msgid "Left location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:68
+msgid "Right location on the page"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:75
+msgid "Specify modal window location on screen."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:94
+msgid "Distance from the top edge of the screen in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:113
+msgid "Distance from the bottom  edge of the screen in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:132
+msgid "Distance from the left edge of the screen in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:151
+msgid "Distance from the right edge of the screen in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:161
+msgid "Fixed"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:162
+msgid "Absolute"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:168
+msgid "Set the positioning of the popup. Can be:"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:170
+msgid ""
+"<strong>fixed</strong> - popup is positioned relative to the browser window;"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:171
+msgid ""
+"<strong>absolute</strong> - the popup is positioned relative to its place;"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:188
+msgid "Specify modal window width. Can be:"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:190
+msgid ""
+"<strong>any integer value in px</strong> (for example: \"400px\" will set "
+"popup width to 400px);"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:191
+msgid ""
+"<strong>any integer value in %</strong> (for example: \"80%\" will set popup "
+"width to 80% of the window width);"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:192
+msgid "<strong>auto</strong> - the browser calculates the popup width."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:209
+msgid "Specify modal window height. Can be:"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:211
+msgid ""
+"<strong>any integer value in px</strong> (for example: \"400px\" will set "
+"popup height to 400px);"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:212
+msgid ""
+"<strong>any integer value in %</strong> (for example: \"80%\" will set popup "
+"height to 80% of the window height);"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:213
+msgid "<strong>auto</strong> - the browser calculates the popup height."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:227
+msgid "Specify modal window background color."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:240
+msgid ""
+"Specify the modal window background image. Enter the URL of the image which "
+"you want to use as a background."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:256
+msgid "Specify modal window margins. Can be:"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:258
+msgid ""
+"any integer value in px (for example: \"20px\" will set popup margins to "
+"20px)"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:259
+msgid "if you enter 0, the popup will have not margins"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:260
+msgid ""
+"when four values are specified, the margins apply to the top, right, bottom, "
+"and left in that order (clockwise)"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:277
+msgid "Specify modal window inner padding. Can be:"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:279
+#: admin/popups/add-new/settings/stylebtn.php:152
+msgid ""
+"any integer value in px (for example: \"10px\" will set popup inner paddings "
+"to 10px)"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:280
+#: admin/popups/add-new/settings/stylebtn.php:153
+msgid "if you enter 0, the popup will have not paddings"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:281
+#: admin/popups/add-new/settings/stylebtn.php:154
+msgid ""
+"when four values are specified, the paddings apply to the top, right, "
+"bottom, and left in that order (clockwise)"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:301
+msgid "Specify modal window border radius in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:311
+#: admin/popups/add-new/settings/style.php:361
+msgid "None"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:312
+msgid "Solid"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:313
+msgid "Dotted"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:314
+msgid "Dashed"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:315
+msgid "Double"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:316
+msgid "Groove"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:317
+#: admin/popups/add-new/settings/style.php:363
+msgid "Inset"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:318
+#: admin/popups/add-new/settings/style.php:362
+msgid "Outset"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:319
+msgid "Ridge"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:326
+msgid "Choose a border style for your popup."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:369
+msgid "Set the box shadow."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:371
+msgid "None - no shadow is displayed"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:372
+msgid "Outset - outer shadow of popup"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:373
+msgid "Inset - inner shadow of popup"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:392
+msgid ""
+"The horizontal offset of the shadow. A positive value puts the shadow on the "
+"right side of the box, a negative value puts the shadow on the left side of "
+"the box."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:410
+msgid ""
+"The vertical offset of the shadow. A positive value puts the shadow below "
+"the box, a negative value puts the shadow above the box."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:428
+msgid ""
+"The blur radius. The higher the number, the more blurred the shadow will be."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:446
+msgid ""
+"The spread radius. A positive value increases the size of the shadow, a "
+"negative value decreases the size of the shadow."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:461
+msgid "The color of the shadow."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:480
+msgid "Set the font size for popup content in px"
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:499
+msgid ""
+"The line-height property defines the amount of space above and below inline "
+"elements in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/style.php:509
+#: admin/popups/add-new/settings/style.php:596
+#: admin/popups/add-new/settings/stylebtn.php:211
+msgid "Use Your Themes"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:19
+#: admin/popups/add-new/stylebtn.php:58
+msgid "Text"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:20
+msgid "Icon"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:32
+msgid "Top Right location on the popup"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:33
+msgid "Top Left location on the popup"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:34
+msgid "Bottom Left location on the popup"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:35
+msgid "Bottom Right location on the popup"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:42
+msgid "Specify close button location."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:61
+msgid "Distance from the top edge of the popup in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:80
+msgid "Distance from the bottom  edge of the popup in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:99
+msgid "Distance from the left edge of the popup in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:118
+msgid "Distance from the right edge of the popup in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:126
+#: admin/popups/add-new/settings/stylebtn.php:128
+#: admin/popups/generator/style.php:135 admin/popups/preview/style.php:125
+msgid "CLOSE"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:134
+msgid "Enter the close button text."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:150
+msgid "Specify button text inner padding. Can be:"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:171
+msgid "Specify box size for close button icon."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:201
+msgid "Set the font size for close button content in px"
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:268
+msgid "Specify popup close button color."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:284
+msgid "Specify popup close button hover text color."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:300
+msgid "Specify popup close button background color."
+msgstr ""
+
+#: admin/popups/add-new/settings/stylebtn.php:316
+msgid "Specify popup close button hover background color."
+msgstr ""
+
+#: admin/popups/add-new/settings/targeting.php:23
+msgid "Specify the window breakpoint in px when the popup will be shown."
+msgstr ""
+
+#: admin/popups/add-new/settings/targeting.php:51
+msgid "Specify the window breakpoint ( mix width) in px."
+msgstr ""
+
+#: admin/popups/add-new/settings/targeting.php:69
+msgid ""
+"The Action is a click on something in an open popup, such as a link or a "
+"button. To calculate the Action add the class \"lg-popup-action\" to the "
+"link or button that is inserted into the content of the popup."
+msgstr ""
+
+#: admin/popups/add-new/style.php:18
+msgid "Overlay"
+msgstr ""
+
+#: admin/popups/add-new/style.php:22
+msgid "Z-index"
+msgstr ""
+
+#: admin/popups/add-new/style.php:26
+msgid "Position"
+msgstr ""
+
+#: admin/popups/add-new/style.php:33
+msgid "Width"
+msgstr ""
+
+#: admin/popups/add-new/style.php:37
+msgid "Height"
+msgstr ""
+
+#: admin/popups/add-new/style.php:41
+msgid "Background Color"
+msgstr ""
+
+#: admin/popups/add-new/style.php:49
+msgid "Background Image URL"
+msgstr ""
+
+#: admin/popups/add-new/style.php:53
+msgid "Margin"
+msgstr ""
+
+#: admin/popups/add-new/style.php:57 admin/popups/add-new/stylebtn.php:62
+msgid "Padding"
+msgstr ""
+
+#: admin/popups/add-new/style.php:63 admin/popups/add-new/style.php:66
+#: admin/popups/add-new/stylebtn.php:27 admin/popups/add-new/stylebtn.php:30
+msgid "Location"
+msgstr ""
+
+#: admin/popups/add-new/style.php:71 admin/popups/add-new/stylebtn.php:35
+msgid "Top"
+msgstr ""
+
+#: admin/popups/add-new/style.php:75 admin/popups/add-new/stylebtn.php:39
+msgid "Bottom"
+msgstr ""
+
+#: admin/popups/add-new/style.php:81 admin/popups/add-new/stylebtn.php:45
+msgid "Left"
+msgstr ""
+
+#: admin/popups/add-new/style.php:85 admin/popups/add-new/stylebtn.php:49
+msgid "Right"
+msgstr ""
+
+#: admin/popups/add-new/style.php:93
+msgid "Border"
+msgstr ""
+
+#: admin/popups/add-new/style.php:97 admin/popups/add-new/stylebtn.php:92
+msgid "Radius"
+msgstr ""
+
+#: admin/popups/add-new/style.php:102
+msgid "Style"
+msgstr ""
+
+#: admin/popups/add-new/style.php:113 admin/popups/add-new/style.php:155
+#: admin/popups/add-new/style.php:197 admin/popups/add-new/stylebtn.php:96
+msgid "Color"
+msgstr ""
+
+#: admin/popups/add-new/style.php:117
+msgid "Thickness"
+msgstr ""
+
+#: admin/popups/add-new/style.php:128
+msgid "Drop Shadow"
+msgstr ""
+
+#: admin/popups/add-new/style.php:131
+msgid "Shadow"
+msgstr ""
+
+#: admin/popups/add-new/style.php:135
+msgid "Horizontal Position"
+msgstr ""
+
+#: admin/popups/add-new/style.php:139
+msgid "Vertical Position"
+msgstr ""
+
+#: admin/popups/add-new/style.php:147
+msgid "Blur"
+msgstr ""
+
+#: admin/popups/add-new/style.php:151
+msgid "Spread"
+msgstr ""
+
+#: admin/popups/add-new/style.php:163
+msgid "Title"
+msgstr ""
+
+#: admin/popups/add-new/style.php:167 admin/popups/add-new/style.php:213
+#: admin/popups/add-new/stylebtn.php:73
+msgid "Font Size"
+msgstr ""
+
+#: admin/popups/add-new/style.php:171
+msgid "Line Height"
+msgstr ""
+
+#: admin/popups/add-new/style.php:175 admin/popups/add-new/style.php:217
+#: admin/popups/add-new/stylebtn.php:77
+msgid "Font Family"
+msgstr ""
+
+#: admin/popups/add-new/style.php:182 admin/popups/add-new/stylebtn.php:81
+msgid "Font Weight"
+msgstr ""
+
+#: admin/popups/add-new/style.php:186 admin/popups/add-new/stylebtn.php:88
+msgid "Font Style"
+msgstr ""
+
+#: admin/popups/add-new/style.php:190
+msgid "Align"
+msgstr ""
+
+#: admin/popups/add-new/style.php:209
+msgid "Content"
+msgstr ""
+
+#: admin/popups/add-new/stylebtn.php:17
+msgid "Close Button type"
+msgstr ""
+
+#: admin/popups/add-new/stylebtn.php:66
+msgid "Box Size"
+msgstr ""
+
+#: admin/popups/add-new/stylebtn.php:104
+msgid "Hover Color"
+msgstr ""
+
+#: admin/popups/add-new/stylebtn.php:108
+msgid "Background"
+msgstr ""
+
+#: admin/popups/add-new/stylebtn.php:112
+msgid "Hover Background"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:26
+msgid "Analytics"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:30
+msgid "Views"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:31
+msgid "Actions"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:32
+msgid "Conversion"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:33
+msgid "Reset"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:40
+msgid "Targeting"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:44
+msgid "Show on devices"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:45
+msgid "Don't show on screens more"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:47
+msgid "Don't show on screens less"
+msgstr ""
+
+#: admin/popups/add-new/targeting.php:55
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">More advanced targeting</a>"
+msgstr ""
+
+#: admin/popups/add_new.php:23
+msgid "Register a popup name"
+msgstr ""
+
+#: admin/popups/add_new.php:49
+msgid "Preview"
+msgstr ""
+
+#: admin/popups/add_new.php:50
+msgid "You can preview the changed settings after the click \"Update\"."
+msgstr ""
+
+#: admin/popups/add_new.php:58 admin/popups/class-list-table.php:73
+msgid "Delete"
+msgstr ""
+
+#: admin/popups/add_new.php:81
+msgid "Popup Settings"
+msgstr ""
+
+#: admin/popups/add_new.php:82
+msgid "Close Settings"
+msgstr ""
+
+#: admin/popups/add_new.php:83
+msgid "Popup Style"
+msgstr ""
+
+#: admin/popups/add_new.php:84
+msgid "Close Button Style "
+msgstr ""
+
+#: admin/popups/class-list-table.php:71
+msgid "Edit"
+msgstr ""
+
+#: admin/popups/class-list-table.php:72
+msgid "Duplicate"
+msgstr ""
+
+#: admin/popups/class-list-table.php:238
+msgid "Untitle Popup"
+msgstr ""
+
+#: admin/popups/include-data.php:23 admin/popups/main.php:47
+msgid "Update"
+msgstr ""
+
+#: admin/popups/include-data.php:36 admin/popups/include-data.php:46
+msgid "Save"
+msgstr ""
+
+#: admin/popups/list.php:19
+msgid "Search"
+msgstr ""
+
+#: admin/popups/main.php:19
+msgid "List"
+msgstr ""
+
+#: admin/popups/main.php:20
+msgid "Add new"
+msgstr ""
+
+#: admin/popups/main.php:21
+msgid "Extensions"
+msgstr ""
+
+#: admin/popups/main.php:37
+msgid "Popups"
+msgstr ""
+
+#: admin/popups/main.php:38
+msgid "Add New"
+msgstr ""
+
+#: admin/tools-data-base.php:6
+msgid "Record Added"
+msgstr ""
+
+#: admin/tools-data-base.php:9
+msgid "Record Updated"
+msgstr ""
+
+#: admin/tools-data-base.php:16
+msgid "Record Deleted"
+msgstr ""
+
+#: popup-generation.php:58 popup-generation.php:70
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Popup Generation"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/popup-generation/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The easiest way for Lead Generation with WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dmytro Lobov"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://dayes.co/"
+msgstr ""
